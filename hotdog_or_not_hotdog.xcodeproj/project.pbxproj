@@ -13,6 +13,7 @@
 		2AC9631D2755B09F00C83E22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC9631B2755B09F00C83E22 /* Main.storyboard */; };
 		2AC9631F2755B0A100C83E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC9631E2755B0A100C83E22 /* Assets.xcassets */; };
 		2AC963222755B0A100C83E22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC963202755B0A100C83E22 /* LaunchScreen.storyboard */; };
+		2AC9633027607BDE00C83E22 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2AC9632F27607BDE00C83E22 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2AC9631E2755B0A100C83E22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AC963212755B0A100C83E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AC963232755B0A100C83E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC9632F27607BDE00C83E22 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				2AC9631B2755B09F00C83E22 /* Main.storyboard */,
 				2AC9631E2755B0A100C83E22 /* Assets.xcassets */,
 				2AC963202755B0A100C83E22 /* LaunchScreen.storyboard */,
+				2AC9632F27607BDE00C83E22 /* Inceptionv3.mlmodel */,
 				2AC963232755B0A100C83E22 /* Info.plist */,
 			);
 			path = hotdog_or_not_hotdog;
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AC9631A2755B09F00C83E22 /* ViewController.swift in Sources */,
+				2AC9633027607BDE00C83E22 /* Inceptionv3.mlmodel in Sources */,
 				2AC963162755B09F00C83E22 /* AppDelegate.swift in Sources */,
 				2AC963182755B09F00C83E22 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A74DU3DH52;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hotdog_or_not_hotdog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A74DU3DH52;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hotdog_or_not_hotdog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
